@@ -1,0 +1,64 @@
+@startuml
+title Iniciar sesion
+actor Cliente
+box "Frontend"
+control LoginComponent
+boundary "IU LoginComponent"
+Cliente-> LoginComponent: 1.get()
+activate LoginComponent
+LoginComponent->"IU LoginComponent": 1.1 template
+activate "IU LoginComponent"
+"IU LoginComponent"-->LoginComponent: login.component.html
+deactivate "IU LoginComponent"
+LoginComponent-->Cliente: render
+deactivate LoginComponent
+Cliente-> LoginComponent: 2.login(email, password)
+activate LoginComponent
+LoginComponent->userService:login(email, password)
+activate userService
+end box
+box "Backend"
+userService->"POST /v1/auth": body(email, password)
+activate "POST /v1/auth"
+control users
+"POST /v1/auth"->users: auth(email, password)
+activate users
+users->UsersRepository: auth(email)
+activate UsersRepository
+entity User
+UsersRepository->User: findOne(email)
+activate User
+User-->"UsersRepository": user
+deactivate User
+UsersRepository-->users: user
+deactivate UsersRepository
+users->"bcrypt": compare(req.body.password, user.password)
+alt #LightBlue authorized
+    activate bcrypt
+    bcrypt-->users: return true
+    deactivate bcrypt
+    users->jwt: sign(user.id, user.email, token, expires)
+    activate jwt
+    jwt-->users: token
+    deactivate jwt
+    end box
+    users-->"POST /v1/auth": return(token, user)
+    deactivate users
+    "POST /v1/auth"-->userService: return(token, user)
+    deactivate "POST /v1/auth"
+    userService-->LoginComponent: return(token, user)
+    deactivate userService
+    LoginComponent-->"Cliente": redirect "/home"
+else #Pink unauthorized
+users->"bcrypt": compare(req.body.password, user.password)
+    activate bcrypt
+    bcrypt-->users: return false
+    deactivate bcrypt
+    users->userService: return 401
+    userService-->LoginComponent: return 401
+    LoginComponent-->"Cliente": handleUnauthorizedError()
+    deactivate LoginComponent
+
+end
+
+@enduml
