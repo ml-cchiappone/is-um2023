@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2023-05-28T16:51:21.050Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="V-qbJgybjdsxNaNEqAmK" version="21.3.4" type="google">
+  <diagram name="Página-1" id="XqLnvfmp3aYQwQd9mKvL">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ywyfxYKMyuTLGuC0aq_W-6" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;- OS: Windows/Mac OS/Ubuntu&lt;br&gt;- Browser: Chrome version &amp;gt;&amp;nbsp;112.X.X&lt;br&gt;- Memoria ram &amp;gt; 4 gb&lt;br&gt;- Memoria en disco &amp;gt; 4 gb&lt;br&gt;- Conexión &amp;gt; 1mb&lt;br&gt;&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ywyfxYKMyuTLGuC0aq_W-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;- Mysql: version 8.0.0&lt;br&gt;- Memoria ram &amp;gt; 4gb&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Memoria en disco &amp;gt; 50gb&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ywyfxYKMyuTLGuC0aq_W-22" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;- OS: Android &amp;gt; 10, iOS &amp;gt; 11&lt;br&gt;- Memoria ram &amp;gt; 1 gb&lt;br&gt;- Memoria en disco &amp;gt; 2 gb&lt;br&gt;- Conexión &amp;gt; 1mb&lt;br&gt;&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ywyfxYKMyuTLGuC0aq_W-31" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;- Angular, version &amp;gt; 13&lt;br&gt;- Memoria ram &amp;gt; 4gb&amp;nbsp;&lt;br&gt;- Memoria en disco &amp;gt; 30gb&lt;br&gt;&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="71" as="sourcePoint" />
+            <mxPoint x="400" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-14" value="Internet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="uiQ3JneJ7CN_yE_90_AW-13">
+          <mxGeometry x="0.1502" y="-1" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-4" value="Browser cliente" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="31" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="uiQ3JneJ7CN_yE_90_AW-5" target="uiQ3JneJ7CN_yE_90_AW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-5" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="uiQ3JneJ7CN_yE_90_AW-6" target="uiQ3JneJ7CN_yE_90_AW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-16" value="Internet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="uiQ3JneJ7CN_yE_90_AW-15">
+          <mxGeometry x="-0.0824" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-6" value="Servidor frontend&lt;br&gt;BACKOFFICE&amp;nbsp;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uiQ3JneJ7CN_yE_90_AW-7" target="uiQ3JneJ7CN_yE_90_AW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-18" value="Internet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="uiQ3JneJ7CN_yE_90_AW-17">
+          <mxGeometry x="0.2783" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-7" value="Servidor backend" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="31" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-8" value="Servidor base de datos" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="30" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="uiQ3JneJ7CN_yE_90_AW-9" target="uiQ3JneJ7CN_yE_90_AW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-9" value="Comensal" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="319" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uiQ3JneJ7CN_yE_90_AW-20" target="uiQ3JneJ7CN_yE_90_AW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-29" value="Internet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="uiQ3JneJ7CN_yE_90_AW-28">
+          <mxGeometry x="-0.1271" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-20" value="Servidor frontend&lt;br&gt;PWA&amp;nbsp;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="311" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="uiQ3JneJ7CN_yE_90_AW-23" target="uiQ3JneJ7CN_yE_90_AW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-25" value="Internet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="uiQ3JneJ7CN_yE_90_AW-24">
+          <mxGeometry x="0.1114" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-23" value="Browser cliente" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ3JneJ7CN_yE_90_AW-30" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;- Angular, version &amp;gt; 15&lt;br&gt;- Memoria ram &amp;gt; 4gb&amp;nbsp;&lt;br&gt;- Memoria en disco &amp;gt; 30gb&lt;br&gt;&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ywyfxYKMyuTLGuC0aq_W-19" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;- NodeJs, version &amp;gt; 14&lt;br&gt;- ORM: Sequelize&lt;br&gt;- Autenticación: JWT&lt;br&gt;- Memoria ram &amp;gt; 4gb&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Memoria en disco &amp;gt; 30gb&lt;br&gt;&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="555" y="130" width="180" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
