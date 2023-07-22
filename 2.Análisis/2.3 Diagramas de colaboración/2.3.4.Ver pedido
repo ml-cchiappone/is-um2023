@@ -1,0 +1,229 @@
+<mxfile host="app.diagrams.net" modified="2023-07-16T15:33:05.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6lrE5MCTd1PpcEZWbZeJ" version="21.6.1" type="google">
+  <diagram name="Página-1" id="zufMnafQ0kB9Bt_i0PmI">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="51.61000000000024" as="sourcePoint" />
+            <mxPoint x="200" y="51.61000000000024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-2" value="1. Ingresar a un restaurant" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="kXTtGLepfG0-ONq6kC9t-1">
+          <mxGeometry x="-0.253" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-3" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="51.610000000000014" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-4" value="UI de Restaurantes" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="200" y="51.610000000000014" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-5" value="Controlador" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="41.610000000000014" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-6" value="Order" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="600" y="47.610000000000014" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="51.00000000000023" as="sourcePoint" />
+            <mxPoint x="410" y="51.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-8" value="2. Obtener pedidos del restaurant" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="kXTtGLepfG0-ONq6kC9t-7">
+          <mxGeometry x="-0.253" y="2" relative="1" as="geometry">
+            <mxPoint x="-68" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="51.00000000000023" as="sourcePoint" />
+            <mxPoint x="600" y="51.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-10" value="3. Obtener pedidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="kXTtGLepfG0-ONq6kC9t-9">
+          <mxGeometry x="-0.253" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="121.61000000000024" as="sourcePoint" />
+            <mxPoint x="600" y="121.61000000000024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-12" value="4. Devolver datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="549.9984848484847" y="131.61000000000035" as="geometry" />
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="121.61000000000024" as="sourcePoint" />
+            <mxPoint x="410" y="121.61000000000024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-14" value="5. Devolver datos de pedidos en curso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="359.99848484848474" y="131.61000000000035" as="geometry" />
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="121.61000000000024" as="sourcePoint" />
+            <mxPoint x="200" y="121.61000000000024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kXTtGLepfG0-ONq6kC9t-16" value="6. Mostrar lista de pedidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="149.99848484848474" y="131.61000000000035" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="300.0000000000002" as="sourcePoint" />
+            <mxPoint x="330" y="300.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-2" value="1. Ingresar a un restaurant" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-1">
+          <mxGeometry x="-0.253" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-3" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-4" value="UI de Restaurantes" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-5" value="Controlador" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-6" value="Order" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="730" y="296" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="299.3900000000002" as="sourcePoint" />
+            <mxPoint x="540" y="299.3900000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-8" value="2. Obtener pedidos del restaurant" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-7">
+          <mxGeometry x="-0.253" y="2" relative="1" as="geometry">
+            <mxPoint x="-68" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="299.3900000000002" as="sourcePoint" />
+            <mxPoint x="730" y="299.3900000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-10" value="3. Obtener pedidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-9">
+          <mxGeometry x="-0.253" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="370.0000000000002" as="sourcePoint" />
+            <mxPoint x="730" y="370.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-12" value="4. Devolver datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="679.9984848484847" y="380.00000000000034" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="370.0000000000002" as="sourcePoint" />
+            <mxPoint x="540" y="370.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-14" value="5. Devolver datos de pedidos en curso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="489.99848484848474" y="380.00000000000034" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="370.0000000000002" as="sourcePoint" />
+            <mxPoint x="330" y="370.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-16" value="6. Mostrar lista de pedidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="279.99848484848474" y="380.00000000000034" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-17" value="UI de Orden" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="130" y="510" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="390" as="sourcePoint" />
+            <mxPoint x="210" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-22" value="7.Ver pedido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-21">
+          <mxGeometry x="-0.4861" y="3" relative="1" as="geometry">
+            <mxPoint x="7" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-23" value="Controlador" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="570" as="sourcePoint" />
+            <mxPoint x="220" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-25" value="8. Obtener información de pedido&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-24">
+          <mxGeometry x="-0.4861" y="3" relative="1" as="geometry">
+            <mxPoint x="7" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-26" value="Order" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="150" y="880" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="760" as="sourcePoint" />
+            <mxPoint x="220" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-28" value="9. Obtener pedido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-27">
+          <mxGeometry x="-0.4861" y="3" relative="1" as="geometry">
+            <mxPoint x="7" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-29" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="760" as="sourcePoint" />
+            <mxPoint x="160" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-30" value="10. Devolver datos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-29">
+          <mxGeometry x="-0.4861" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-31" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="149.2" y="580" as="sourcePoint" />
+            <mxPoint x="149.2" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-32" value="11. Devolver datos de pedido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-31">
+          <mxGeometry x="-0.4861" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-33" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="149.2" y="390" as="sourcePoint" />
+            <mxPoint x="149.2" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcdrJR-OFfv77CsjiGC8-34" value="12. Mostrar pedido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" connectable="0" vertex="1" parent="QcdrJR-OFfv77CsjiGC8-33">
+          <mxGeometry x="-0.4861" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

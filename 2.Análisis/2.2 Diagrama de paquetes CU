@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T09:56:44.303Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="By3K88ljghjxxIc8OVcn" version="21.3.7" type="google">
+<mxfile host="app.diagrams.net" modified="2023-07-12T11:04:01.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FuLQDA0E5wGtTIHuYfvJ" version="21.6.1" type="google">
   <diagram name="Página-1" id="zufMnafQ0kB9Bt_i0PmI">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -102,9 +102,6 @@
         </mxCell>
         <mxCell id="Q8TW2rxETWtVtIcmCEkX-48" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Administrar mesa&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="-388.75" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Q8TW2rxETWtVtIcmCEkX-49" value="Generar QR" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="-240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q8TW2rxETWtVtIcmCEkX-51" value="Crear pedido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="304" y="-335" width="120" height="80" as="geometry" />
