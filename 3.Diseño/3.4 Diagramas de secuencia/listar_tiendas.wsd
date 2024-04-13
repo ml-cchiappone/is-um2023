@@ -1,0 +1,30 @@
+@startuml
+title Listar tiendas
+actor Cliente
+box "Frontend"
+control RestaurantGridComponent
+
+Cliente->RestaurantGridComponent:
+RestaurantGridComponent->restaurantService:getList(offset, limit, order, orderBy, name)
+activate restaurantService
+end box
+box "Backend"
+control restaurants
+restaurantService->restaurants: POST /v1/restaurants?limit=${limit}&offset=${offset}&order=${order}&order_by=${orderBy}&name=${name}
+activate restaurants
+restaurants->RestaurantsRepository: getAllRestaurants(limit, offset, order, order_by, name)
+activate RestaurantsRepository
+entity Restaurant
+RestaurantsRepository->Restaurant: findAndCountAll({limit, offset, order, order_by, name})
+activate Restaurant
+Restaurant-->"RestaurantsRepository": restaurants
+deactivate Restaurant
+RestaurantsRepository-->restaurants: resturants
+deactivate RestaurantsRepository
+end box
+deactivate restaurants
+"restaurants"-->restaurantService: return restaurants
+restaurantService-->RestaurantGridComponent: return restaurants
+deactivate restaurantService
+RestaurantGridComponent-->"Cliente": Lista de resturants
+@enduml
