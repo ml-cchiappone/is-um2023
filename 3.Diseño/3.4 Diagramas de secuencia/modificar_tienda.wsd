@@ -1,0 +1,30 @@
+@startuml
+title Editar tienda
+actor Cliente
+box "Frontend"
+control RestaurantGridComponent
+
+Cliente->RestaurantGridComponent: editRestaurant(formData)
+RestaurantGridComponent->restaurantService:update(id, { name, phone_number...})
+activate restaurantService
+end box
+box "Backend"
+control restaurants
+restaurantService->restaurants: POST /v1/restaurants/{id} { name, phone_number...}
+activate restaurants
+restaurants->RestaurantsRepository: update(id, { name, phone_number...})
+activate RestaurantsRepository
+entity Restaurant
+RestaurantsRepository->Restaurant: update({ id, name, phone_number...})
+activate Restaurant
+Restaurant-->"RestaurantsRepository": restaurant
+deactivate Restaurant
+RestaurantsRepository-->restaurants: resturant
+deactivate RestaurantsRepository
+end box
+deactivate restaurants
+"restaurants"-->restaurantService: return restaurant
+restaurantService-->RestaurantGridComponent: return restaurant
+deactivate restaurantService
+RestaurantGridComponent-->"Cliente": callSnackBar("El restaurant fue modificado correctamente!")
+@enduml

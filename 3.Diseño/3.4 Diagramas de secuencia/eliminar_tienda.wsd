@@ -1,0 +1,30 @@
+@startuml
+title Eliminar tienda
+actor Cliente
+box "Frontend"
+control RestaurantGridComponent
+
+Cliente->RestaurantGridComponent: deleteRestaurant(restaurantId)
+RestaurantGridComponent->restaurantService:delete(id)
+activate restaurantService
+end box
+box "Backend"
+control restaurants
+restaurantService->restaurants: POST /v1/restaurants/{id}
+activate restaurants
+restaurants->RestaurantsRepository: delete(id)
+activate RestaurantsRepository
+entity Restaurant
+RestaurantsRepository->Restaurant: delete(id)
+activate Restaurant
+Restaurant-->"RestaurantsRepository": restaurant
+deactivate Restaurant
+RestaurantsRepository-->restaurants: resturant
+deactivate RestaurantsRepository
+end box
+deactivate restaurants
+"restaurants"-->restaurantService: return restaurant
+restaurantService-->RestaurantGridComponent: return restaurant
+deactivate restaurantService
+RestaurantGridComponent-->"Cliente": callSnackBar("El restaurant fue eliminado correctamente!")
+@enduml
