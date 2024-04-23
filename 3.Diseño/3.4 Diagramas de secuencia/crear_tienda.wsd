@@ -9,8 +9,11 @@ RestaurantAbmComponent->restaurantService:create({ name, phone_number...})
 activate restaurantService
 end box
 box "Backend"
+control Router
+restaurantService->Router: POST /v1/restaurants { name, phone_number...}
+activate Router
 control restaurants
-restaurantService->restaurants: POST /v1/restaurants { name, phone_number...}
+Router->restaurants:createRestaurant({ name, phone_number...}) 
 activate restaurants
 restaurants->RestaurantsRepository: create({ name, phone_number...})
 activate RestaurantsRepository
@@ -22,8 +25,9 @@ deactivate Restaurant
 RestaurantsRepository-->restaurants: resturant
 deactivate RestaurantsRepository
 end box
+"restaurants"-->Router: return restaurant
 deactivate restaurants
-"restaurants"-->restaurantService: return restaurant
+Router-->restaurantService: return restaurant
 restaurantService-->RestaurantAbmComponent: return restaurant
 deactivate restaurantService
 RestaurantAbmComponent-->"Cliente": callSnackBar("El restaurant fue creado correctamente!")
